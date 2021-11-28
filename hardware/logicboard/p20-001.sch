@@ -20203,7 +20203,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AUDIO_JACK_3.5MM" device="_PTH" package3d_urn="urn:adsk.eagle:package:37997/1"/>
 <part name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AUDIO_JACK_3.5MM" device="_PTH" package3d_urn="urn:adsk.eagle:package:37997/1"/>
 <part name="IC11" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="ALS" value="74ALS04N"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
+<part name="R00" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
 <part name="L00" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="PWR"/>
 <part name="L2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="IN"/>
@@ -20217,8 +20217,8 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -20450,7 +20450,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="NAME" x="236.22" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="236.22" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="35.56" y="177.8" smashed="yes" rot="R90">
+<instance part="R00" gate="G$1" x="35.56" y="177.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.0614" y="173.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="38.862" y="173.99" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -20507,11 +20507,11 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="NAME" x="167.64" y="129.54" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="122.682" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="58.42" y="185.42" smashed="yes" rot="R90">
+<instance part="R10" gate="G$1" x="58.42" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.9214" y="181.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="61.722" y="181.61" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R12" gate="G$1" x="58.42" y="154.94" smashed="yes" rot="R90">
+<instance part="R11" gate="G$1" x="58.42" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.9214" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="61.722" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -20806,7 +20806,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="139.7" y="111.76" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R00" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="185.42" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
 <label x="35.56" y="185.42" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -20974,7 +20974,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </net>
 <net name="LEDPWR" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R00" gate="G$1" pin="1"/>
 <pinref part="L00" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="172.72" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
 </segment>
@@ -20991,7 +20991,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="309.88" y="129.54" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="190.5" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
 <label x="58.42" y="193.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -21008,7 +21008,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="309.88" y="101.6" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="149.86" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <label x="58.42" y="147.32" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -21058,14 +21058,14 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="L0/1" gate="G$1" pin="AR"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="177.8" x2="58.42" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="L0/1" gate="G$1" pin="AG"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="162.56" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
