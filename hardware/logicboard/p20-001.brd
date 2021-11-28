@@ -4558,7 +4558,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="49" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.8664" y="44.6886" size="0.9906" layer="27" ratio="10"/>
 </element>
-<element name="L0" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="PWR" x="3" y="55" smashed="yes" rot="R90">
+<element name="L00" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="PWR" x="3" y="55" smashed="yes" rot="R90">
 <attribute name="NAME" x="3" y="57.5" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="97" x="3" y="55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="4.651" y="56.905" size="1.27" layer="27" ratio="10" rot="R90"/>
@@ -4598,7 +4598,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="92" x="3" y="10" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.175" y="6.19" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="L1/2" library="led" library_urn="urn:adsk.eagle:library:259" package="DUOLED-C-5MM" package3d_urn="urn:adsk.eagle:package:15851/1" value="" x="3" y="62" smashed="yes" rot="R270">
+<element name="L0/1" library="led" library_urn="urn:adsk.eagle:library:259" package="DUOLED-C-5MM" package3d_urn="urn:adsk.eagle:package:15851/1" value="" x="3" y="62" smashed="yes" rot="R270">
 <attribute name="NAME" x="3" y="66" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="POPULARITY" value="1" x="3" y="62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="0.46" y="58.19" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -4650,12 +4650,12 @@ design rules under a new name.</description>
 <contactref element="J12" pad="SLEEVE"/>
 <contactref element="J13" pad="SLEEVE"/>
 <contactref element="J14" pad="SLEEVE"/>
-<contactref element="L0" pad="K"/>
+<contactref element="L00" pad="K"/>
 <contactref element="IC11" pad="7"/>
 <contactref element="X0" pad="1"/>
 <contactref element="S1" pad="1"/>
 <contactref element="S1" pad="2"/>
-<contactref element="L1/2" pad="C"/>
+<contactref element="L0/1" pad="C"/>
 <contactref element="JP6" pad="2"/>
 <contactref element="SV2" pad="11"/>
 <contactref element="SV2" pad="13"/>
@@ -4827,7 +4827,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="LEDPWR">
 <contactref element="R10" pad="1"/>
-<contactref element="L0" pad="A"/>
+<contactref element="L00" pad="A"/>
 <wire x1="3" y1="53.73" x2="20.46" y2="44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED1">
@@ -4837,7 +4837,7 @@ design rules under a new name.</description>
 <wire x1="3" y1="7.46" x2="59.73" y2="37.27" width="0" layer="19" extent="1-1"/>
 <wire x1="6.54" y1="-4" x2="3" y2="7.46" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LED2">
+<signal name="LED0">
 <contactref element="JP6" pad="3"/>
 <contactref element="SV2" pad="17"/>
 <contactref element="R12" pad="1"/>
@@ -4867,12 +4867,12 @@ design rules under a new name.</description>
 <contactref element="SV2" pad="18"/>
 </signal>
 <signal name="N$3">
-<contactref element="L1/2" pad="AR"/>
+<contactref element="L0/1" pad="AR"/>
 <contactref element="R11" pad="1"/>
 <wire x1="1.46" y1="-4" x2="3" y2="59.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
-<contactref element="L1/2" pad="AX"/>
+<contactref element="L0/1" pad="AX"/>
 <contactref element="R12" pad="2"/>
 <wire x1="6.54" y1="-8" x2="3" y2="64.54" width="0" layer="19" extent="1-1"/>
 </signal>
