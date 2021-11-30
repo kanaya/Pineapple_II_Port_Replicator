@@ -20628,25 +20628,25 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="45.72" y="53.34" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-11" pin="S"/>
-<wire x1="312.42" y1="121.92" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
-<label x="309.88" y="121.92" size="0.8128" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SV2" gate="-13" pin="S"/>
-<wire x1="312.42" y1="114.3" x2="309.88" y2="114.3" width="0.1524" layer="91"/>
-<label x="309.88" y="114.3" size="0.8128" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
 <pinref part="RN1" gate="1" pin="1"/>
 <wire x1="193.04" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="195.58" y1="50.8" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-10" pin="S"/>
-<wire x1="312.42" y1="127" x2="309.88" y2="127" width="0.1524" layer="91"/>
-<label x="309.88" y="127" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-5" pin="S"/>
+<wire x1="312.42" y1="144.78" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
+<label x="309.88" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="-15" pin="S"/>
+<wire x1="312.42" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
+<label x="309.88" y="109.22" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="-16" pin="S"/>
+<wire x1="312.42" y1="104.14" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
+<label x="309.88" y="104.14" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -20671,9 +20671,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="241.3" y="226.06" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-12" pin="S"/>
-<wire x1="312.42" y1="119.38" x2="309.88" y2="119.38" width="0.1524" layer="91"/>
-<label x="309.88" y="119.38" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-19" pin="S"/>
+<wire x1="312.42" y1="93.98" x2="309.88" y2="93.98" width="0.1524" layer="91"/>
+<label x="309.88" y="93.98" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -20693,12 +20693,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="147.32" y="200.66" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DTCT1" class="0">
-<segment>
-<pinref part="SV1" gate="-3" pin="S"/>
-<wire x1="40.64" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="43.18" y="119.38" size="0.8128" layer="95" xref="yes"/>
-</segment>
+<net name="DTCT0" class="0">
 <segment>
 <pinref part="J11" gate="G$1" pin="TSH"/>
 <wire x1="137.16" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
@@ -20708,13 +20703,13 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="182.88" y="60.96"/>
 <label x="195.58" y="60.96" size="0.8128" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="DTCT2" class="0">
 <segment>
-<pinref part="SV1" gate="-7" pin="S"/>
-<wire x1="40.64" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<label x="43.18" y="106.68" size="0.8128" layer="95" xref="yes"/>
+<wire x1="40.64" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="-2" pin="S"/>
+<label x="43.18" y="121.92" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="DTCT1" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="TSH"/>
 <wire x1="137.16" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
@@ -20724,13 +20719,13 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="177.8" y="78.74"/>
 <label x="195.58" y="78.74" size="0.8128" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="DTCT3" class="0">
 <segment>
-<pinref part="SV1" gate="-11" pin="S"/>
-<wire x1="40.64" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<label x="43.18" y="93.98" size="0.8128" layer="95" xref="yes"/>
+<wire x1="40.64" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="-6" pin="S"/>
+<label x="43.18" y="109.22" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="DTCT2" class="0">
 <segment>
 <pinref part="J13" gate="G$1" pin="TSH"/>
 <wire x1="137.16" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
@@ -20740,13 +20735,13 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="172.72" y="96.52"/>
 <label x="195.58" y="96.52" size="0.8128" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="DTCT4" class="0">
 <segment>
-<pinref part="SV1" gate="-15" pin="S"/>
-<wire x1="40.64" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<label x="43.18" y="81.28" size="0.8128" layer="95" xref="yes"/>
+<wire x1="40.64" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="-10" pin="S"/>
+<label x="43.18" y="96.52" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="DTCT3" class="0">
 <segment>
 <pinref part="J14" gate="G$1" pin="TSH"/>
 <wire x1="137.16" y1="114.3" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
@@ -20755,6 +20750,11 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="167.64" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
 <junction x="167.64" y="114.3"/>
 <label x="195.58" y="114.3" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="40.64" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="-14" pin="S"/>
+<label x="43.18" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MRX-" class="0">
@@ -20765,26 +20765,6 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </segment>
 </net>
 <net name="VCC/2" class="2">
-<segment>
-<wire x1="40.64" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="-2" pin="S"/>
-<label x="43.18" y="121.92" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="40.64" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="-6" pin="S"/>
-<label x="43.18" y="109.22" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="40.64" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="-10" pin="S"/>
-<label x="43.18" y="96.52" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="40.64" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="-14" pin="S"/>
-<label x="43.18" y="83.82" size="0.8128" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J11" gate="G$1" pin="TIP"/>
 <wire x1="137.16" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
@@ -20810,6 +20790,26 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="35.56" y1="185.42" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
 <label x="35.56" y="185.42" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="-4" pin="S"/>
+<wire x1="40.64" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<label x="43.18" y="116.84" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-8" pin="S"/>
+<wire x1="40.64" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
+<label x="43.18" y="104.14" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-12" pin="S"/>
+<wire x1="40.64" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<label x="43.18" y="91.44" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-16" pin="S"/>
+<wire x1="40.64" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
+<label x="43.18" y="78.74" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MISND" class="0">
 <segment>
@@ -20818,9 +20818,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="101.6" y="241.3" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-4" pin="S"/>
-<wire x1="312.42" y1="147.32" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
-<label x="309.88" y="147.32" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-9" pin="S"/>
+<wire x1="312.42" y1="129.54" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
+<label x="309.88" y="129.54" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="MIRTN" class="0">
@@ -20835,9 +20835,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="198.12" y="157.48" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-5" pin="S"/>
-<wire x1="312.42" y1="144.78" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
-<label x="309.88" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="SV2" gate="-11" pin="S"/>
+<wire x1="312.42" y1="121.92" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
+<label x="309.88" y="121.92" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="MORTN" class="0">
@@ -20847,9 +20847,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="81.28" y="177.8" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-15" pin="S"/>
-<wire x1="312.42" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
-<label x="309.88" y="109.22" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-17" pin="S"/>
+<wire x1="312.42" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="309.88" y="101.6" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="MOSND" class="0">
@@ -20864,9 +20864,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="198.12" y="139.7" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-14" pin="S"/>
-<wire x1="312.42" y1="111.76" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
-<label x="309.88" y="111.76" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-13" pin="S"/>
+<wire x1="312.42" y1="114.3" x2="309.88" y2="114.3" width="0.1524" layer="91"/>
+<label x="309.88" y="114.3" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="V+" class="2">
@@ -20886,52 +20886,52 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="53.34" y="218.44" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ANLG1R" class="0">
-<segment>
-<pinref part="SV1" gate="-4" pin="S"/>
-<wire x1="40.64" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
-<label x="43.18" y="116.84" size="0.8128" layer="95" xref="yes"/>
-</segment>
+<net name="ANLG0R" class="0">
 <segment>
 <pinref part="J11" gate="G$1" pin="RING"/>
 <wire x1="137.16" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <label x="139.7" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="ANLG2R" class="0">
 <segment>
-<pinref part="SV1" gate="-8" pin="S"/>
-<wire x1="40.64" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
-<label x="43.18" y="104.14" size="0.8128" layer="95" xref="yes"/>
+<pinref part="SV1" gate="-3" pin="S"/>
+<wire x1="40.64" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
+<label x="43.18" y="119.38" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="ANLG1R" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="RING"/>
 <wire x1="137.16" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <label x="139.7" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="ANLG3R" class="0">
 <segment>
-<pinref part="SV1" gate="-12" pin="S"/>
-<wire x1="40.64" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
-<label x="43.18" y="91.44" size="0.8128" layer="95" xref="yes"/>
+<pinref part="SV1" gate="-7" pin="S"/>
+<wire x1="40.64" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
+<label x="43.18" y="106.68" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="ANLG2R" class="0">
 <segment>
 <pinref part="J13" gate="G$1" pin="RING"/>
 <wire x1="137.16" y1="101.6" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
 <label x="139.7" y="101.6" size="0.8128" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="ANLG4R" class="0">
 <segment>
-<pinref part="SV1" gate="-16" pin="S"/>
-<wire x1="40.64" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<label x="43.18" y="78.74" size="0.8128" layer="95" xref="yes"/>
+<pinref part="SV1" gate="-11" pin="S"/>
+<wire x1="40.64" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<label x="43.18" y="93.98" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="ANLG3R" class="0">
 <segment>
 <pinref part="J14" gate="G$1" pin="RING"/>
 <wire x1="137.16" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
 <label x="139.7" y="119.38" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-15" pin="S"/>
+<wire x1="40.64" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<label x="43.18" y="81.28" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MTSND" class="0">
@@ -20941,9 +20941,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="101.6" y="210.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-19" pin="S"/>
-<wire x1="312.42" y1="93.98" x2="309.88" y2="93.98" width="0.1524" layer="91"/>
-<label x="309.88" y="93.98" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-14" pin="S"/>
+<wire x1="312.42" y1="111.76" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
+<label x="309.88" y="111.76" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="MTRTN" class="0">
@@ -20953,9 +20953,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="81.28" y="210.82" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-20" pin="S"/>
-<wire x1="312.42" y1="91.44" x2="309.88" y2="91.44" width="0.1524" layer="91"/>
-<label x="309.88" y="91.44" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-18" pin="S"/>
+<wire x1="312.42" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
+<label x="309.88" y="99.06" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="LEDMI" class="0">
@@ -20986,14 +20986,14 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="45.72" y="55.88" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-9" pin="S"/>
-<wire x1="312.42" y1="129.54" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
-<label x="309.88" y="129.54" size="0.8128" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="190.5" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
 <label x="58.42" y="193.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="-20" pin="S"/>
+<wire x1="312.42" y1="91.44" x2="309.88" y2="91.44" width="0.1524" layer="91"/>
+<label x="309.88" y="91.44" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="LED0" class="0">
@@ -21003,14 +21003,14 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="45.72" y="50.8" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="-17" pin="S"/>
-<wire x1="312.42" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
-<label x="309.88" y="101.6" size="0.8128" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="149.86" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <label x="58.42" y="147.32" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="-7" pin="S"/>
+<wire x1="312.42" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
+<label x="309.88" y="137.16" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="MRX+" class="0">
@@ -21036,23 +21036,23 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </net>
 <net name="MRXDTCT" class="0">
 <segment>
-<pinref part="SV2" gate="-7" pin="S"/>
-<wire x1="312.42" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
-<label x="309.88" y="137.16" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-4" pin="S"/>
+<wire x1="312.42" y1="147.32" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
+<label x="309.88" y="147.32" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="MTX+" class="1">
 <segment>
-<pinref part="SV2" gate="-16" pin="S"/>
-<wire x1="312.42" y1="104.14" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
-<label x="309.88" y="104.14" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-10" pin="S"/>
+<wire x1="312.42" y1="127" x2="309.88" y2="127" width="0.1524" layer="91"/>
+<label x="309.88" y="127" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="MTX-" class="0">
 <segment>
-<pinref part="SV2" gate="-18" pin="S"/>
-<wire x1="312.42" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
-<label x="309.88" y="99.06" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-12" pin="S"/>
+<wire x1="312.42" y1="119.38" x2="309.88" y2="119.38" width="0.1524" layer="91"/>
+<label x="309.88" y="119.38" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
