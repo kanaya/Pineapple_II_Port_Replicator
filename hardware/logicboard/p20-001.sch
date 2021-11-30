@@ -21055,14 +21055,14 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <label x="309.88" y="119.38" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="LED1A" class="0">
 <segment>
 <pinref part="L0/1" gate="G$1" pin="AR"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="177.8" x2="58.42" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="LED0A" class="0">
 <segment>
 <pinref part="L0/1" gate="G$1" pin="AG"/>
 <pinref part="R11" gate="G$1" pin="2"/>
