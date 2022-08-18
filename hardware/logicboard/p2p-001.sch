@@ -21034,7 +21034,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="220.98" y1="139.7" x2="254" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MRXDTCT" class="0">
+<net name="NDX" class="0">
 <segment>
 <pinref part="SV2" gate="-4" pin="S"/>
 <wire x1="312.42" y1="147.32" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
